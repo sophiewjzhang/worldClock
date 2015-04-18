@@ -1,0 +1,30 @@
+
+.toolTip {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+	color: $black;
+	&.hovered {
+		display: block;
+	}
+}
+
+
+//strikethrough text
+.strike {
+  text-align: center;
+  border-bottom: 1px solid;
+  margin: 0 0 1em 0;
+  line-height: 0.5em;
+  display: inline-block;
+}
+
+/* sup script */
+sup {
+  vertical-align: super !important;
+  line-height: 0 !important;
+  top: 0;
+}

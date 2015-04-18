@@ -1,0 +1,7 @@
+@mixin vendor_prop($property, $value...) {
+  -moz-#{$property}: $value;
+  -webkit-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}

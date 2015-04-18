@@ -1,0 +1,5 @@
+
+@mixin setOpacity($value: 1) {
+  filter: alpha(opacity=$value*100);
+  opacity: $value;
+}

@@ -1,0 +1,14 @@
+/**
+variables:
+$global-border-radius: the application-wide border thickness.
+$global-border-color: the application-wide border color.
+*/
+//rounded corners
+@mixin corner( $input-border-radius: $global-border-radius, $position-vertical: top, $position-horizon: left ){
+  @if $position-horizon == all {
+    border-radius: $input-border-radius;
+  }
+  @else{
+    border-#{$position-vertical}-#{$position-horizon}-radius: $input-border-radius;
+  }
+}

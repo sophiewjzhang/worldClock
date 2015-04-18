@@ -1,0 +1,41 @@
+/**
+* the variables to be customized.
+*/
+$em-base: 12px !default;
+//control whether to display in em or px, with default of em. Set true to use px instead of em.
+$em-disabled: false !default;
+/*
+* space variables, used for padding and margin.
+*/
+$s-xs: 1;
+$s-s: 2;
+$s-m: 3;
+$s-l: 4;
+$s-xl: 5;
+$margin-base: toEm(5px);
+$padding-base: toEm(5px);
+/**
+* global border styles
+*/
+$global-border-size: 1px !default;
+$global-border-radius: 5px !default;
+$global-border-style: solid !default;
+$global-border-color: #cccccc !default;
+/**
+* grey colors
+*/
+$grey: #cccccc;
+$dark-grey: darken($grey, 50%);
+$light-grey: lighten($grey, 50%);
+$primary: #ff0000;
+$secondary: #ffff00;
+/**
+* global typography style
+*/
+$weight-normal: 300 !default;
+$weight-bold: 500 !default;
+$weight-light: 100 !default;
+/**
+* cursor image path
+*/
+$cursor-url: 'images/cursor.png' !default;

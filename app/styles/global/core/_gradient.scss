@@ -1,0 +1,14 @@
+
+.v-gradient-dark {
+  @include vertical-gradient($grey, $dark-grey);
+}
+.v-gradient-light{
+  @include vertical-gradient($grey, $light-grey);
+}
+
+.h-gradient-dark {
+  @include horizontal-gradient($grey, $dark-grey);
+}
+.h-gradient-light{
+  @include horizontal-gradient($grey, $light-grey);
+}

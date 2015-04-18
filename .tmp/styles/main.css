@@ -1,0 +1,3096 @@
+/*=========================
+* SCSS libraries
+=========================*/
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\000039}}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\0000319}}
+body {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\0000333}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\0000354}}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\0000367}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\0000377}}
+[hidden],
+template {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\0000389}}
+a {
+  background-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\0000397}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003109}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003117}}
+b,
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003126}}
+dfn {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003135}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003144}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003153}}
+small {
+  font-size: 80%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003161}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003169}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003173}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003184}}
+img {
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003192}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003203}}
+figure {
+  margin: 1em 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003211}}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003221}}
+pre {
+  overflow: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003229}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003252}}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003266}}
+button {
+  overflow: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003277}}
+button,
+select {
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003290}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003302}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003311}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003322}}
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003334}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003346}}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003357}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003370}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003379}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003390}}
+legend {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003399}}
+textarea {
+  overflow: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003408}}
+optgroup {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003419}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_normalize\.scss}line{font-family:\00003424}}
+td,
+th {
+  padding: 0;
+}
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\000039}}
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000318}}
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000323}}
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000327}}
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000333}}
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000338}}
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000344}}
+  thead {
+    display: table-header-group;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000348}}
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000353}}
+  img {
+    max-width: 100% !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000357}}
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000364}}
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000373}}
+  select {
+    background: #fff !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000378}}
+  .navbar {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000383}}
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000387}}
+  .label {
+    border: 1px solid #000;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000391}}
+  .table {
+    border-collapse: collapse !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\0000394}}
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_print\.scss}line{font-family:\00003100}}
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000311}}
+* {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000314}}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000322}}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000327}}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000336}}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000348}}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000352}}
+a:hover, a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000358}}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000369}}
+figure {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000376}}
+img {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000381}}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000386}}
+.img-rounded {
+  border-radius: 6px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\0000393}}
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\00003106}}
+.img-circle {
+  border-radius: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\00003113}}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\00003125}}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_scaffolding\.scss}line{font-family:\00003141}}
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_grid\.scss}line{font-family:\0000310}}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000314}}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000319}}
+.container:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_grid\.scss}line{font-family:\0000310}}
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_grid\.scss}line{font-family:\0000310}}
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_grid\.scss}line{font-family:\0000310}}
+  .container {
+    width: 1170px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_grid\.scss}line{font-family:\0000330}}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000314}}
+.container-fluid:before, .container-fluid:after {
+  content: " ";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000319}}
+.container-fluid:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_grid\.scss}line{font-family:\0000339}}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000314}}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000319}}
+.row:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000311}}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000327}}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-1 {
+  width: 8.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-2 {
+  width: 16.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-3 {
+  width: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-4 {
+  width: 33.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-5 {
+  width: 41.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-6 {
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-7 {
+  width: 58.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-8 {
+  width: 66.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-9 {
+  width: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-10 {
+  width: 83.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-11 {
+  width: 91.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+.col-xs-12 {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000355}}
+.col-xs-pull-0 {
+  right: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-1 {
+  right: 8.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-2 {
+  right: 16.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-4 {
+  right: 33.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-5 {
+  right: 41.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-7 {
+  right: 58.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-8 {
+  right: 66.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-10 {
+  right: 83.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-11 {
+  right: 91.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000345}}
+.col-xs-push-0 {
+  left: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-1 {
+  left: 8.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-2 {
+  left: 16.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-3 {
+  left: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-4 {
+  left: 33.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-5 {
+  left: 41.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-6 {
+  left: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-7 {
+  left: 58.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-8 {
+  left: 66.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-9 {
+  left: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-10 {
+  left: 83.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-11 {
+  left: 91.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+.col-xs-push-12 {
+  left: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-1 {
+  margin-left: 8.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-2 {
+  margin-left: 16.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-4 {
+  margin-left: 33.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-5 {
+  margin-left: 41.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-7 {
+  margin-left: 58.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-8 {
+  margin-left: 66.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-10 {
+  margin-left: 83.3333333333%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-11 {
+  margin-left: 91.6666666667%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000327}}
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-1 {
+    width: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-2 {
+    width: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-3 {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-4 {
+    width: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-5 {
+    width: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-6 {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-7 {
+    width: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-8 {
+    width: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-9 {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-10 {
+    width: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-11 {
+    width: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-sm-12 {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000355}}
+  .col-sm-pull-0 {
+    right: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-1 {
+    right: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-2 {
+    right: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-4 {
+    right: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-5 {
+    right: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-7 {
+    right: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-8 {
+    right: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-10 {
+    right: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-11 {
+    right: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000345}}
+  .col-sm-push-0 {
+    left: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-1 {
+    left: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-2 {
+    left: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-4 {
+    left: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-5 {
+    left: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-7 {
+    left: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-8 {
+    left: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-10 {
+    left: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-11 {
+    left: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-sm-push-12 {
+    left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-1 {
+    margin-left: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-2 {
+    margin-left: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-4 {
+    margin-left: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-5 {
+    margin-left: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-7 {
+    margin-left: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-8 {
+    margin-left: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-10 {
+    margin-left: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-11 {
+    margin-left: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+}
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000327}}
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-1 {
+    width: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-2 {
+    width: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-3 {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-4 {
+    width: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-5 {
+    width: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-6 {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-7 {
+    width: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-8 {
+    width: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-9 {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-10 {
+    width: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-11 {
+    width: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-md-12 {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000355}}
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-1 {
+    right: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-2 {
+    right: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-4 {
+    right: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-5 {
+    right: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-7 {
+    right: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-8 {
+    right: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-10 {
+    right: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-11 {
+    right: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-md-pull-12 {
+    right: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000345}}
+  .col-md-push-0 {
+    left: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-1 {
+    left: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-2 {
+    left: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-4 {
+    left: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-5 {
+    left: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-7 {
+    left: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-8 {
+    left: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-10 {
+    left: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-11 {
+    left: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-md-push-12 {
+    left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-1 {
+    margin-left: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-2 {
+    margin-left: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-4 {
+    margin-left: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-5 {
+    margin-left: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-7 {
+    margin-left: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-8 {
+    margin-left: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-10 {
+    margin-left: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-11 {
+    margin-left: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000327}}
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-1 {
+    width: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-2 {
+    width: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-3 {
+    width: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-4 {
+    width: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-5 {
+    width: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-6 {
+    width: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-7 {
+    width: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-8 {
+    width: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-9 {
+    width: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-10 {
+    width: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-11 {
+    width: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000335}}
+  .col-lg-12 {
+    width: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000355}}
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-1 {
+    right: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-2 {
+    right: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-4 {
+    right: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-5 {
+    right: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-7 {
+    right: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-8 {
+    right: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-10 {
+    right: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-11 {
+    right: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000350}}
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000345}}
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-1 {
+    left: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-2 {
+    left: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-4 {
+    left: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-5 {
+    left: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-7 {
+    left: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-8 {
+    left: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-10 {
+    left: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-11 {
+    left: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000340}}
+  .col-lg-push-12 {
+    left: 100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-1 {
+    margin-left: 8.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-2 {
+    margin-left: 16.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-4 {
+    margin-left: 33.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-5 {
+    margin-left: 41.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-7 {
+    margin-left: 58.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-8 {
+    margin-left: 66.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-10 {
+    margin-left: 83.3333333333%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-11 {
+    margin-left: 91.6666666667%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_grid-framework\.scss}line{font-family:\0000360}}
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+}
+/*@import "bootstrap/component-animations";
+@import "bootstrap/dropdowns";
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/pagination";
+@import "bootstrap/pager";
+@import "bootstrap/labels";
+@import "bootstrap/badges";
+@import "bootstrap/jumbotron";
+@import "bootstrap/thumbnails";
+@import "bootstrap/alerts";
+@import "bootstrap/progress-bars";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+@import "bootstrap/wells";
+@import "bootstrap/close";*/
+/*@import "bootstrap/popovers";
+@import "bootstrap/carousel";*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000314}}
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_clearfix\.scss}line{font-family:\0000319}}
+.clearfix:after {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000312}}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000315}}
+.pull-right {
+  float: right !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000318}}
+.pull-left {
+  float: left !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000327}}
+.hide {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000330}}
+.show {
+  display: block !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000333}}
+.invisible {
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000336}}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000345}}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_utilities\.scss}line{font-family:\0000354}}
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+.visible-xs {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+.visible-sm {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+.visible-md {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+.visible-lg {
+  display: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000334}}
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\000037}}
+  .visible-xs {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000310}}
+  table.visible-xs {
+    display: table;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000311}}
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000312}}
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000352}}
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000357}}
+  .visible-xs-inline {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000362}}
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\000037}}
+  .visible-sm {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000310}}
+  table.visible-sm {
+    display: table;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000311}}
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000312}}
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000371}}
+  .visible-sm-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000376}}
+  .visible-sm-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000381}}
+  .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\000037}}
+  .visible-md {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000310}}
+  table.visible-md {
+    display: table;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000311}}
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000312}}
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000390}}
+  .visible-md-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\0000395}}
+  .visible-md-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003100}}
+  .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\000037}}
+  .visible-lg {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000310}}
+  table.visible-lg {
+    display: table;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000311}}
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000312}}
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003109}}
+  .visible-lg-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003114}}
+  .visible-lg-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003119}}
+  .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+.visible-print {
+  display: none !important;
+}
+
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\000037}}
+  .visible-print {
+    display: block !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000310}}
+  table.visible-print {
+    display: table;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000311}}
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000312}}
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003153}}
+.visible-print-block {
+  display: none !important;
+}
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003153}}
+  .visible-print-block {
+    display: block !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003160}}
+.visible-print-inline {
+  display: none !important;
+}
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003160}}
+  .visible-print-inline {
+    display: inline !important;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003167}}
+.visible-print-inline-block {
+  display: none !important;
+}
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/_responsive-utilities\.scss}line{font-family:\00003167}}
+  .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/lib\/bootstrap\/mixins\/_responsive-visibility\.scss}line{font-family:\0000318}}
+  .hidden-print {
+    display: none !important;
+  }
+}
+/***************
+//overwrite default themes
+***************/
+/***************
+ Typography
+***************/
+/**
+* class for text font size
+* text-h1, text-h2...
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000354}}
+.text-h1, .button.button-large, button.button-large {
+  font-size: 3.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000354}}
+.text-h2 {
+  font-size: 1.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000354}}
+.text-h3 {
+  font-size: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000354}}
+.text-h4 {
+  font-size: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000354}}
+.text-h5 {
+  font-size: 0.8571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000368}}
+.color-white {
+  color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000371}}
+.color-black {
+  color: #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000374}}
+.color-grey {
+  color: #8e8e93;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000377}}
+.color-blue {
+  color: #007aff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000380}}
+.color-primary {
+  color: #C41522;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_themes\.scss}line{font-family:\0000383}}
+.bg-white {
+  background-color: #ffffff;
+}
+
+/*=========================
+* general SCSS styles
+* to customize, modify the _variable.scss.
+=========================*/
+/**
+* the variables to be customized.
+*/
+/*
+* space variables, used for padding and margin.
+*/
+/**
+* global border styles
+*/
+/**
+* grey colors
+*/
+/**
+* global typography style
+*/
+/**
+* cursor image path
+*/
+/*
+* mixins
+*/
+/****
+button classes
+-----------
+must have class:
+<cta-round>
+-----------
+optional classes that can be combined to create up to 12 kinds of buttons:
+---three colors: <primary, secondary, tertiary>
+---four sizes: <small, medium, large, xLarge>
+---button position: <full, left, right>
+----------
+examples:
+for a large round button in primary color, floating right:
+  <button class="cta-round primary large right"></button>
+
+for a large round button in dark grey, centered in 100% width:
+  <button class="cta-round primary large full"></button>
+****/
+/**
+variables:
+$global-border-radius: the application-wide border thickness.
+$global-border-color: the application-wide border color.
+*/
+/**
+* A linear gradient from top to bottom.
+*/
+/**
+* A linear gradient from left to right.
+*/
+/*
+* basic styles
+*/
+/** single border style
+* border-top, border-bottom, border-left, border-right
+* border-none, border-all, border-ribbon
+radius, radius-top-left, radius-top-right, radius-bottom-left, radius-bottom-right
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\000037}}
+.border-top {
+  border-top: 1px solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\000037}}
+.border-bottom {
+  border-bottom: 1px solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\000037}}
+.border-left {
+  border-left: 1px solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\000037}}
+.border-right {
+  border-right: 1px solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000311}}
+.border-none {
+  border: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000315}}
+.border-all, .radius, .button, button, .radius-top-left, .radius-top-right, .radius-bottom-left, .radius-bottom-right {
+  border: 1px solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000319}}
+.border-ribbon {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+/*
+* round borders
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000327}}
+.radius, .button, button {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000335}}
+.radius-top-left {
+  border-top-left-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000339}}
+.radius-top-right {
+  border-top-right-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000343}}
+.radius-bottom-left {
+  border-bottom-left-radius: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_border\.scss}line{font-family:\0000347}}
+.radius-bottom-right {
+  border-bottom-right-radius: 5px;
+}
+
+/** button styles
+* <span class="button button-{style} button-{size} button-{color} button-{gradient} button-{width}"></span>
+* variables:
+style: regular, label
+size: small, medium, large
+color: primary, secondary
+gradient: vertical, horizontal
+width: auto, full
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_button\.scss}line{font-family:\0000311}}
+.button-regular {
+  border-regular: 1px solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_button\.scss}line{font-family:\0000311}}
+.button-label {
+  border-label: 1px solid #000000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_button\.scss}line{font-family:\0000315}}
+.button {
+  color: #007aff;
+  background-color: #ffffff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_button\.scss}line{font-family:\0000321}}
+.button[disabled] {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+/*********************
+* common cursor styles.
+cursor-none, cursor-pointer, cursor-help, cursor-progress, cursor-wait, cursor-crosshair, cursor-not-allowed, cursor-zoom-in, cursor-oom-out
+* cursor-image if $cursor-url is defined in the variable.scss.
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-none {
+  cursor: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-pointer, a, .link {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-help {
+  cursor: help;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-progress {
+  cursor: progress;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-wait {
+  cursor: wait;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-zoom-in {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\000037}}
+.cursor-zoom-out {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_cursor\.scss}line{font-family:\0000311}}
+.cursor-image {
+  cursor: url("images/cursor.png"), pointer;
+}
+
+/*********************
+* dimension styles:
+* width-auto, height-auto, width-full, height-full
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_dimension\.scss}line{font-family:\000035}}
+.width-auto, .button.button-small, button.button-small {
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_dimension\.scss}line{font-family:\000038}}
+.height-auto {
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_dimension\.scss}line{font-family:\0000311}}
+.width-full, .button.button-large, button.button-large {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_dimension\.scss}line{font-family:\0000314}}
+.height-full {
+  height: 100%;
+}
+
+/*********************
+* display styles:
+* display-none, display-hidden, display-block, display-inline-block, display-table, display-table-cell
+* visible, hidden, collapse
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\000037}}
+.display-none {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\000037}}
+.display-inline {
+  display: inline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\000037}}
+.display-block {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\000037}}
+.display-inline-block {
+  display: inline-block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\000037}}
+.display-table {
+  display: table;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\000037}}
+.display-table-cell {
+  display: table-cell;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000312}}
+.visible {
+  visibility: visible;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000312}}
+.hidden {
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000312}}
+.collapse {
+  visibility: collapse;
+}
+
+/*********************
+overflow
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000320}}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000320}}
+.overflow-auto {
+  overflow: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000324}}
+.overflow-v-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000328}}
+.overflow-h-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/*********************
+* center an element
+* example:
+* <div class="wrapper-center">
+    <div class="content"></div>
+  </div>
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000339}}
+.wrapper-center {
+  width: 100%;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_display\.scss}line{font-family:\0000342}}
+.wrapper-center .content {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*********************
+* float styles.
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_float\.scss}line{font-family:\000035}}
+.float-left {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_float\.scss}line{font-family:\000035}}
+.float-right {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_float\.scss}line{font-family:\000035}}
+.float-none {
+  float: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_gradient\.scss}line{font-family:\000032}}
+.v-gradient-dark {
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #cccccc, #4d4d4d);
+  /* Standard syntax */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_gradient\.scss}line{font-family:\000035}}
+.v-gradient-light {
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #cccccc, white);
+  /* Standard syntax */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_gradient\.scss}line{font-family:\000039}}
+.h-gradient-dark {
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cccccc, #4d4d4d);
+  /* Standard syntax */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_gradient\.scss}line{font-family:\0000312}}
+.h-gradient-light {
+  /* For Safari 5.1 to 6.0 */
+  /* For Opera 11.1 to 12.0 */
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#cccccc, white);
+  /* Standard syntax */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_helper\.scss}line{font-family:\000032}}
+.toolTip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_helper\.scss}line{font-family:\0000310}}
+.toolTip.hovered {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_helper\.scss}line{font-family:\0000317}}
+.strike {
+  text-align: center;
+  border-bottom: 1px solid;
+  margin: 0 0 1em 0;
+  line-height: 0.5em;
+  display: inline-block;
+}
+
+/* sup script */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_helper\.scss}line{font-family:\0000326}}
+sup {
+  vertical-align: super !important;
+  line-height: 0 !important;
+  top: 0;
+}
+
+/*********************
+* list styles.
+list-none, list-decimal, list-decimal-leading-zero, list-disc, list-circle, list-square
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_list\.scss}line{font-family:\000036}}
+ul.list-none {
+  list-style: decimal;
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_list\.scss}line{font-family:\000036}}
+ul.list-decimal {
+  list-style: decimal;
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_list\.scss}line{font-family:\000036}}
+ul.list-decimal-leading-zero {
+  list-style: decimal;
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_list\.scss}line{font-family:\000036}}
+ul.list-disc {
+  list-style: decimal;
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_list\.scss}line{font-family:\000036}}
+ul.list-circle {
+  list-style: decimal;
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_list\.scss}line{font-family:\000036}}
+ul.list-square {
+  list-style: decimal;
+  list-style-type: decimal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_opacity\.scss}line{font-family:\000031}}
+.opaque {
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_opacity\.scss}line{font-family:\000035}}
+.transparent {
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_opacity\.scss}line{font-family:\000039}}
+.overlay {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+/** spacing helpers
+* this generates the classes with the name pattern of {spaceType}-{spacePosition}-{spaceScale}
+* examples:
+* to define a div with small padding all around,use the class padding-all-s-s
+* to define a div with top large margin, use the class margin-top-s-l
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000325}}
+.padding-all-s-none {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000331}}
+.padding-top-s-none {
+  padding-top: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000334}}
+.padding-bottom-s-none {
+  padding-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000337}}
+.padding-left-s-none, .row, .row .row, .row .row .col, .row .row .row .col {
+  padding-left: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000340}}
+.padding-right-s-none {
+  padding-right: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000343}}
+.margin-all-s-none {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000349}}
+.margin-top-s-none {
+  margin-top: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000352}}
+.margin-bottom-s-none {
+  margin-bottom: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000355}}
+.margin-left-s-none, .row, .row .row, .row .row .col, .row .row .row .col {
+  margin-left: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000358}}
+.margin-right-s-none {
+  margin-right: 0em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000325}}
+.padding-all-s-xs {
+  padding-top: 0.3571428571em;
+  padding-bottom: 0.3571428571em;
+  padding-left: 0.3571428571em;
+  padding-right: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000331}}
+.padding-top-s-xs, button, .button {
+  padding-top: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000334}}
+.padding-bottom-s-xs, button, .button {
+  padding-bottom: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000337}}
+.padding-left-s-xs {
+  padding-left: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000340}}
+.padding-right-s-xs {
+  padding-right: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000343}}
+.margin-all-s-xs {
+  margin-top: 0.3571428571em;
+  margin-bottom: 0.3571428571em;
+  margin-left: 0.3571428571em;
+  margin-right: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000349}}
+.margin-top-s-xs {
+  margin-top: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000352}}
+.margin-bottom-s-xs {
+  margin-bottom: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000355}}
+.margin-left-s-xs {
+  margin-left: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000358}}
+.margin-right-s-xs {
+  margin-right: 0.3571428571em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000325}}
+.padding-all-s-s {
+  padding-top: 0.7142857143em;
+  padding-bottom: 0.7142857143em;
+  padding-left: 0.7142857143em;
+  padding-right: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000331}}
+.padding-top-s-s, .button, .row .col, .row .row .col {
+  padding-top: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000334}}
+.padding-bottom-s-s, .button {
+  padding-bottom: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000337}}
+.padding-left-s-s {
+  padding-left: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000340}}
+.padding-right-s-s {
+  padding-right: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000343}}
+.margin-all-s-s {
+  margin-top: 0.7142857143em;
+  margin-bottom: 0.7142857143em;
+  margin-left: 0.7142857143em;
+  margin-right: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000349}}
+.margin-top-s-s {
+  margin-top: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000352}}
+.margin-bottom-s-s {
+  margin-bottom: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000355}}
+.margin-left-s-s {
+  margin-left: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000358}}
+.margin-right-s-s {
+  margin-right: 0.7142857143em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000325}}
+.padding-all-s-m {
+  padding-top: 1.0714285714em;
+  padding-bottom: 1.0714285714em;
+  padding-left: 1.0714285714em;
+  padding-right: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000331}}
+.padding-top-s-m {
+  padding-top: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000334}}
+.padding-bottom-s-m {
+  padding-bottom: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000337}}
+.padding-left-s-m {
+  padding-left: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000340}}
+.padding-right-s-m {
+  padding-right: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000343}}
+.margin-all-s-m {
+  margin-top: 1.0714285714em;
+  margin-bottom: 1.0714285714em;
+  margin-left: 1.0714285714em;
+  margin-right: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000349}}
+.margin-top-s-m {
+  margin-top: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000352}}
+.margin-bottom-s-m {
+  margin-bottom: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000355}}
+.margin-left-s-m {
+  margin-left: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000358}}
+.margin-right-s-m {
+  margin-right: 1.0714285714em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000325}}
+.padding-all-s-l {
+  padding-top: 1.4285714286em;
+  padding-bottom: 1.4285714286em;
+  padding-left: 1.4285714286em;
+  padding-right: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000331}}
+.padding-top-s-l {
+  padding-top: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000334}}
+.padding-bottom-s-l {
+  padding-bottom: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000337}}
+.padding-left-s-l {
+  padding-left: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000340}}
+.padding-right-s-l {
+  padding-right: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000343}}
+.margin-all-s-l {
+  margin-top: 1.4285714286em;
+  margin-bottom: 1.4285714286em;
+  margin-left: 1.4285714286em;
+  margin-right: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000349}}
+.margin-top-s-l {
+  margin-top: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000352}}
+.margin-bottom-s-l {
+  margin-bottom: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000355}}
+.margin-left-s-l {
+  margin-left: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000358}}
+.margin-right-s-l {
+  margin-right: 1.4285714286em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000325}}
+.padding-all-s-xl {
+  padding-top: 1.7857142857em;
+  padding-bottom: 1.7857142857em;
+  padding-left: 1.7857142857em;
+  padding-right: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000331}}
+.padding-top-s-xl {
+  padding-top: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000334}}
+.padding-bottom-s-xl {
+  padding-bottom: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000337}}
+.padding-left-s-xl, .button.button-small, button.button-small {
+  padding-left: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000340}}
+.padding-right-s-xl, .button.button-small, button.button-small {
+  padding-right: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000343}}
+.margin-all-s-xl {
+  margin-top: 1.7857142857em;
+  margin-bottom: 1.7857142857em;
+  margin-left: 1.7857142857em;
+  margin-right: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000349}}
+.margin-top-s-xl {
+  margin-top: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000352}}
+.margin-bottom-s-xl {
+  margin-bottom: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000355}}
+.margin-left-s-xl {
+  margin-left: 1.7857142857em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_spacing\.scss}line{font-family:\0000358}}
+.margin-right-s-xl {
+  margin-right: 1.7857142857em;
+}
+
+/*=========================
+* general typography styles
+* font weight: weight-normal, weight-bold, weight-light
+* text transform: transform-uppercase, transform-lowercase, transform-capitalize, transform-none
+* text alignment: alignment-left, alignment-right, alignment-center, alignment-top, alignment-bottom, alignment-middle
+* text decoration: decoration-underline, decoration-none
+=========================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\000039}}
+.font-weight-bold {
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\000039}}
+.font-weight-regular {
+  font-weight: 100;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\000039}}
+.font-weight-semi-bold {
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000327}}
+.weight-normal {
+  font-weight: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000327}}
+.weight-bold {
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000327}}
+.weight-light {
+  font-weight: 100;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000332}}
+.transform-uppercase {
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000332}}
+.transform-lowercase {
+  text-transform: lowercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000332}}
+.transform-capitalize {
+  text-transform: capitalize;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000332}}
+.transform-none {
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000337}}
+.alignment-left {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000337}}
+.alignment-right {
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000337}}
+.alignment-center {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000342}}
+.alignment-top {
+  vertical-align: top;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000342}}
+.alignment-bottom {
+  vertical-align: bottom;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000342}}
+.alignment-middle {
+  vertical-align: middle;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000347}}
+.decoration-underline {
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_typo\.scss}line{font-family:\0000347}}
+.decoration-none {
+  text-decoration: none;
+}
+
+/*********************
+* z-index styles
+*********************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_zdex\.scss}line{font-family:\000036}}
+.z-index-0 {
+  z-index: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_zdex\.scss}line{font-family:\000036}}
+.z-index-1 {
+  z-index: 100;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_zdex\.scss}line{font-family:\000036}}
+.z-index-2 {
+  z-index: 200;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_zdex\.scss}line{font-family:\000036}}
+.z-index-3 {
+  z-index: 300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_zdex\.scss}line{font-family:\000036}}
+.z-index-4 {
+  z-index: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_zdex\.scss}line{font-family:\000036}}
+.z-index-5 {
+  z-index: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/global\/core\/_zdex\.scss}line{font-family:\0000310}}
+.z-index-max {
+  z-index: 99999;
+}
+
+/*=========================
+* application-wide SCSS styles
+=========================*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\000031}}
+html {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\000034}}
+body {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\000039}}
+a, .link {
+  color: #007aff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000313}}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000317}}
+li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000321}}
+select {
+  background: transparent;
+  line-height: 1;
+  height: 36px;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000328}}
+.page-body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*column classes*/
+/**
+buttons
+**/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000349}}
+button, .button {
+  color: #000000;
+  background-color: #e3e3e3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000355}}
+button[disabled], .button[disabled] {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000371}}
+  button, .button, input, select {
+    width: 95%;
+    border: solid 1px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_layout\.scss}line{font-family:\0000375}}
+  .time-block {
+    text-align: right;
+    width: auto;
+    padding-right: 2.5%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sophie\/Sites\/worldClock\/app\/styles\/local\/_form\.scss}line{font-family:\000034}}
+input.ng-invalid.ng-dirty, select.ng-invalid.ng-dirty {
+  border: 1px solid red;
+}

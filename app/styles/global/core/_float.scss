@@ -1,0 +1,8 @@
+/*********************
+* float styles.
+*********************/
+@each $value in left, right, none{
+  .float-#{$value} {
+    float: $value;
+  }
+}

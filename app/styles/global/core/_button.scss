@@ -1,0 +1,33 @@
+/** button styles
+* <span class="button button-{style} button-{size} button-{color} button-{gradient} button-{width}"></span>
+* variables:
+style: regular, label
+size: small, medium, large
+color: primary, secondary
+gradient: vertical, horizontal
+width: auto, full
+*/
+@each $value in regular, label {
+  .button-#{$value} {
+    border-#{$value}: $global-border-size $global-border-style $global-border-color;
+  }
+}
+.button{
+  @extend .radius;
+  @extend .padding-top-s-s;
+  @extend .padding-bottom-s-s;
+  color: $link_blue_color;
+  background-color: $white;
+  &[disabled]{
+    @include setOpacity(.5);
+  }
+  &.button-large {
+    @extend .width-full;
+    @extend .text-h1;
+  }
+  &.button-small{
+    @extend .width-auto;
+    @extend .padding-left-s-xl;
+    @extend .padding-right-s-xl;
+  }
+}

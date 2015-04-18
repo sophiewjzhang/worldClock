@@ -1,0 +1,11 @@
+.opaque {
+  @include setOpacity(1);
+}
+
+.transparent {
+  @include setOpacity(0);
+}
+
+.overlay{
+  @include setOpacity(.5);
+}

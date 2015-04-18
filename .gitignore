@@ -1,0 +1,7 @@
+.data
+.idea
+.tmp
+.sass-cache
+/bower_components
+/node_modules
+/dist

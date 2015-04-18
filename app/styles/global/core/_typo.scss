@@ -1,0 +1,50 @@
+/*=========================
+* general typography styles
+* font weight: weight-normal, weight-bold, weight-light
+* text transform: transform-uppercase, transform-lowercase, transform-capitalize, transform-none
+* text alignment: alignment-left, alignment-right, alignment-center, alignment-top, alignment-bottom, alignment-middle
+* text decoration: decoration-underline, decoration-none
+=========================*/
+@each $value in bold, regular, semi-bold {
+  .font-weight-#{$value} {
+    @if( $value == regular ){
+      font-weight: $font-regular;
+    }@else if( $value == bold ){
+      font-weight: $font-bold;
+    }@else if( $value== semi-bold ){
+      font-weight: $font-semi-bold;
+    }
+  }
+}
+@each $value in weight-normal, weight-bold, weight-light{
+  $weight-unit:$weight-normal;
+  @if $value == weight-bold {
+    $weight-unit: $weight-bold;
+  }
+  @else if $value == weight-light {
+    $weight-unit: $weight-light;
+  }
+  .#{$value}{
+    font-weight: $weight-unit;
+  }
+}
+@each $value in uppercase, lowercase, capitalize, none{
+  .transform-#{$value}{
+    text-transform: $value;
+  }
+}
+@each $value in left, right, center{
+  .alignment-#{$value}{
+    text-align: $value;
+  }
+}
+@each $value in top, bottom, middle{
+  .alignment-#{$value}{
+    vertical-align: $value;
+  }
+}
+@each $value in underline, none{
+  .decoration-#{$value}{
+    text-decoration: $value;
+  }
+}

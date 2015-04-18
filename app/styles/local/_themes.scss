@@ -1,0 +1,86 @@
+/***************
+//overwrite default themes
+***************/
+$font-size-base: 14px;
+$em-base: 14px;
+$em-disabled: false;
+@function toEm($pxWidth) {
+  @if not $em-disabled {
+    @return $pxWidth / $em-base * 1em;
+  }
+  @else{
+    @return $pxWidth;
+  }
+}
+
+$primary-color: #C41522;   // red
+$secondary-color: #7e1226; // white-lilac
+$alert-color: #f04124;     // cinnabar
+$success-color: #43AC6A;   // sea-green
+$warning-color: #f08a24;   // carrot
+$info-color: #a0d3e8;      // cornflower
+$link_blue_color:#007aff;
+
+$anchor-font-color:$link_blue_color;
+$grey-text:#8e8e93;
+$grey-bg: #e3e3e3;
+$grey-border:#c8c7cc;
+$white:#ffffff;
+$black:#000000;
+
+$margin-base: toEm(7px);
+$padding-base: toEm(7px);
+$global-border-radius: 5px;
+$global-border-color:$black;
+
+/***************
+ Typography
+***************/
+$size-h1: toEm(48px);
+$size-h2: toEm(24px);
+$size-h3: toEm(20px);
+$size-h4: toEm(15px);
+$size-h5: toEm(12px);
+$size-h6: toEm(10px);
+
+$font-bold: 500;
+$font-regular: 100;
+$font-semi-bold: 300;
+/**
+* class for text font size
+* text-h1, text-h2...
+*/
+@for $i from 1 through 6 {
+  .text-h#{$i} {
+    @if( $i == 1){
+      font-size: $size-h1;
+    }@else if( $i == 2 ){
+      font-size: $size-h2;
+    }@else if( $i == 3 ){
+      font-size: $size-h3;
+    }@else if( $i == 4 ){
+      font-size: $size-h4;
+    }@else if( $i == 5 ){
+      font-size: $size-h5;
+    }
+  }
+}
+.color-white{
+  color: $white;
+}
+.color-black{
+  color: $black;
+}
+.color-grey{
+  color: $grey-text;
+}
+.color-blue{
+  color: $link_blue_color;
+}
+.color-primary{
+  color:$primary-color;
+}
+.bg-white{
+  background-color: $white;
+}
+

@@ -1,0 +1,14 @@
+/*=========================
+* SCSS libraries
+=========================*/
+@import "lib/bootstrap";
+
+@import "local/themes";//this is to overwrite default color themes.
+@import "global/global";
+/*=========================
+* application-wide SCSS styles
+=========================*/
+@import "local/layout";
+@import "local/form";
+
+

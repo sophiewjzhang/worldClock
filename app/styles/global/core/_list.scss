@@ -1,0 +1,10 @@
+/*********************
+* list styles.
+list-none, list-decimal, list-decimal-leading-zero, list-disc, list-circle, list-square
+*********************/
+@each $value in none, decimal, decimal-leading-zero, disc, circle, square{
+  ul.list-#{$value} {
+    list-style:decimal;
+    list-style-type:decimal;
+  }
+}

@@ -1,0 +1,80 @@
+html {
+  font-size: 14px;
+}
+body{
+	width:100%;
+	height: auto;
+	background-color: $white;
+}
+a, .link{
+  @extend .cursor-pointer;
+  color: $link_blue_color;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+li{
+  display:list-item;
+  list-style-position: inside;
+}
+select{
+  background: transparent;
+  //font-size: 15px;
+  line-height: 1;
+  height: 36px;
+  outline: 0;
+}
+.page-body{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*column classes*/
+.row, .row .row{
+  @extend .padding-left-s-none;
+  @extend .margin-left-s-none;
+  .col{
+    @extend .padding-top-s-s;
+  }
+  & .row .col{
+    @extend .padding-left-s-none;
+    @extend .margin-left-s-none;
+  }
+}
+/**
+buttons
+**/
+button, .button{
+  @extend .radius;
+  @extend .padding-top-s-xs;
+  @extend .padding-bottom-s-xs;
+  color: $black;
+  background-color: $grey-bg;
+  &[disabled]{
+    @include setOpacity(.5);
+  }
+  &.button-large {
+    @extend .width-full;
+    @extend .text-h1;
+  }
+  &.button-small{
+    @extend .width-auto;
+    @extend .padding-left-s-xl;
+    @extend .padding-right-s-xl;
+  }
+
+}
+
+@media (max-width : $screen-xs-max) {
+  button, .button, input, select{
+    width:95%;
+    border:solid 1px;
+  }
+  .time-block{
+    text-align:right;
+    width:auto;
+    padding-right: 2.5%;
+  }
+}

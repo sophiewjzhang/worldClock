@@ -1,0 +1,64 @@
+/** spacing helpers
+* this generates the classes with the name pattern of {spaceType}-{spacePosition}-{spaceScale}
+* examples:
+* to define a div with small padding all around,use the class padding-all-s-s
+* to define a div with top large margin, use the class margin-top-s-l
+*/
+@each $space-type in s-none, s-xs, s-s, s-m, s-l, s-xl{
+  $space-unit: 0;
+  @if $space-type == s-xs {
+    $space-unit: $s-xs;
+  }
+  @else if $space-type == s-s {
+    $space-unit: $s-s;
+  }
+  @else if $space-type == s-m {
+    $space-unit: $s-m;
+  }
+  @else if $space-type == s-l {
+    $space-unit: $s-l;
+  }
+  @else if $space-type == s-xl {
+    $space-unit: $s-xl;
+  }
+
+  .padding-all-#{$space-type}{
+    padding-top: $padding-base*$space-unit;
+    padding-bottom: $padding-base*$space-unit;
+    padding-left: $padding-base*$space-unit;
+    padding-right: $padding-base*$space-unit;
+  }
+  .padding-top-#{$space-type}{
+    padding-top: $padding-base * $space-unit;
+  }
+  .padding-bottom-#{$space-type}{
+    padding-bottom: $padding-base*$space-unit;
+  }
+  .padding-left-#{$space-type}{
+    padding-left: $padding-base*$space-unit;
+  }
+  .padding-right-#{$space-type}{
+    padding-right: $padding-base*$space-unit;
+  }
+  .margin-all-#{$space-type}{
+    margin-top: $margin-base*$space-unit;
+    margin-bottom: $margin-base*$space-unit;
+    margin-left: $margin-base*$space-unit;
+    margin-right: $margin-base*$space-unit;
+  }
+  .margin-top-#{$space-type}{
+    margin-top: $margin-base*$space-unit;
+  }
+  .margin-bottom-#{$space-type}{
+    margin-bottom: $margin-base*$space-unit;
+  }
+  .margin-left-#{$space-type}{
+    margin-left: $margin-base*$space-unit;
+  }
+  .margin-right-#{$space-type}{
+    margin-right: $margin-base*$space-unit;
+  }
+}
+
+
+

@@ -1,0 +1,13 @@
+/*********************
+* common cursor styles.
+cursor-none, cursor-pointer, cursor-help, cursor-progress, cursor-wait, cursor-crosshair, cursor-not-allowed, cursor-zoom-in, cursor-oom-out
+* cursor-image if $cursor-url is defined in the variable.scss.
+*********************/
+@each $value in none, pointer, help, progress, wait, crosshair, not-allowed, zoom-in, zoom-out{
+  .cursor-#{$value} {
+    cursor: $value;
+  }
+}
+.cursor-image{
+  cursor: url( $cursor-url) , pointer;
+}

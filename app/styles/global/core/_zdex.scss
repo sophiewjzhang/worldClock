@@ -1,0 +1,12 @@
+
+/*********************
+* z-index styles
+*********************/
+@for $i from 0 through 5{
+  .z-index-#{$i} {
+    z-index: 100 * $i;
+  }
+}
+.z-index-max{
+  z-index: 99999;
+}

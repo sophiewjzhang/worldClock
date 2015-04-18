@@ -1,0 +1,50 @@
+/** single border style
+* border-top, border-bottom, border-left, border-right
+* border-none, border-all, border-ribbon
+radius, radius-top-left, radius-top-right, radius-bottom-left, radius-bottom-right
+*/
+@each $value in top, bottom, left, right {
+  .border-#{$value} {
+    border-#{$value}: $global-border-size $global-border-style $global-border-color;
+  }
+}
+.border-none{
+  border: none !important;
+}
+
+.border-all{
+  border: $global-border-size $global-border-style $global-border-color;
+}
+
+.border-ribbon {
+  border-top: $global-border-size $global-border-style $global-border-color;
+  border-bottom: $global-border-size $global-border-style $global-border-color;
+}
+
+/*
+* round borders
+*/
+.radius{
+  @extend .border-all;
+
+  @include corner($global-border-radius, top, left);
+  @include corner($global-border-radius, top, right);
+  @include corner($global-border-radius, bottom, left);
+  @include corner($global-border-radius, bottom, right);
+}
+.radius-top-left{
+  @extend .border-all;
+  @include corner($global-border-radius, top, left);
+}
+.radius-top-right{
+  @extend .border-all;
+  @include corner($global-border-radius, top, right);
+}
+.radius-bottom-left{
+  @extend .border-all;
+  @include corner($global-border-radius, bottom, left);
+}
+.radius-bottom-right{
+  @extend .border-all;
+  @include corner($global-border-radius, bottom, right);
+}
