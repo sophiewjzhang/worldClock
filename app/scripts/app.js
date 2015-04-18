@@ -8,7 +8,6 @@
  */
 angular
     .module('worldClock', [
-        'ngCookies',
         'ngRoute',
         'ngTouch',
         'ui.router'
@@ -16,22 +15,22 @@ angular
   .config([ '$stateProvider', '$urlRouterProvider',
     function ( $stateProvider, $urlRouterProvider) {
       //Define the redirecting for all invalid urls.
-      $urlRouterProvider
-        .otherwise('/status');
+       $urlRouterProvider
+       .otherwise('/clock');
 
 
-      $stateProvider
-        .state('status', {
-          name: 'status',
-          url: '/status',
-          templateUrl: 'views/status.html'
-        })
-        .state('clock', {
-          name: 'clock',
-          url: '/clock',
-          controller: 'clockCtrl',
-          templateUrl: 'views/clock.html'
-        });
+       $stateProvider
+       .state('status', {
+       name: 'status',
+       url: '/status',
+       templateUrl: 'views/status.html'
+       })
+       .state('clock', {
+       name: 'clock',
+       url: '/clock',
+       controller: 'clockCtrl',
+       templateUrl: 'views/clock.html'
+       });
 
 
     }])
