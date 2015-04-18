@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-2">
+    <span>Set Toronto time:</span>
+  </div>
+  <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-2">
+    <input type="time" placeholder="HH:mm:ss" data-ng-model="timeToronto" required/>
+  </div>
+  <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-2">
+    <button type="submit" data-ng-click="updateTimes()"><span>Submit</span></button>
+  </div>
+</div>
+<div class="row padding-top-s-l time-block">
+  <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-3">
+    <div class="padding-top-s-m"><span class="text-h3">Toronto:</span></div>
+  </div>
+  <div class="col col-xs-12 col-sm-8 col-md-8 col-lg-3">
+    <div class="text-h1 weight-bold">{{timeToronto | date:'HH:mm:ss'}}</div>
+  </div>
+  <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-3" data-ng-repeat="city in otherCities">
+    <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-3 padding-left-s-none">
+      <div class="padding-bottom-s-s">
+        <span>{{city.name}}:</span>
+      </div>
+    </div>
+    <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-3 padding-left-s-none">
+      <div class="padding-bottom-s-s">
+        <span class="text-h3">{{city.time | date:'HH:mm:ss'}}</span></div>
+    </div>
+  </div>
+</div>
+<div class="row border-top padding-top-s-l margin-left-s-m margin-right-s-m">
+  <div class=""><span>Settings</span></div>
+</div>
+<div class="row padding-top-s-l margin-top-s-l">
+  <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-6" data-ng-repeat="city in otherCities">
+    <div class="row">
+      <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-3">
+        <span>Time difference for {{city.name}}:</span>
+      </div>
+      <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-3">
+        <select data-ng-model="city.timeDifference"
+                ng-options="value for value in zoneDiffs">
+        </select>
+        <!--<input type="number" maxLength="3" min="-23" max="23" data-ng-model="city.timeDifference" />-->
+      </div>
+      <div class="col col-xs-12 col-sm-4 col-md-4 col-lg-2">
+        <div class="padding-left-s-s"></div>
+        <button type="submit" data-ng-click="updateTimes()"><span>Submit</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
